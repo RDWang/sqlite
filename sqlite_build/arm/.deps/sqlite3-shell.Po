@@ -1,0 +1,256 @@
+sqlite3-shell.o: ../../sqlite_src/shell.c \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./stdlib.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./features.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/predefs.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./sys/cdefs.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/wordsize.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./gnu/stubs.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/include/stddef.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/waitflags.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/waitstatus.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./endian.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/endian.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/byteswap.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./sys/types.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/types.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/typesizes.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./time.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./sys/select.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/select.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/sigset.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/time.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./sys/sysmacros.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/pthreadtypes.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./alloca.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./string.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./xlocale.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/string.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/string2.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./stdio.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./libio.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./_G_config.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./wchar.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/include/stdarg.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/stdio_lim.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/sys_errlist.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/stdio.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./assert.h \
+ ../../sqlite_src/sqlite3.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./ctype.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./signal.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/signum.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/siginfo.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/sigaction.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/sigcontext.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/include/asm/sigcontext.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/sigstack.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./sys/ucontext.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/sigthread.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./pwd.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./unistd.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/posix_opt.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/environments.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/confname.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./getopt.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./dirent.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/dirent.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/posix1_lim.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/local_lim.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/include/linux/limits.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./sys/stat.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/stat.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./readline/readline.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./readline/rlstdc.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./readline/rltypedefs.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./readline/keymaps.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./readline/chardefs.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./readline/tilde.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./readline/history.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./sys/time.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./sys/resource.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/resource.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./fcntl.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/fcntl.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./utime.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./errno.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/errno.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/include/linux/errno.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./asm/errno.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./asm-generic/errno.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./asm-generic/errno-base.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./zlib.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./zconf.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/include-fixed/limits.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/include-fixed/syslimits.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./limits.h \
+ /disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/posix2_lim.h
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./stdlib.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./features.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/predefs.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./sys/cdefs.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/wordsize.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./gnu/stubs.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/include/stddef.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/waitflags.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/waitstatus.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./endian.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/endian.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/byteswap.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./sys/types.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/types.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/typesizes.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./time.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./sys/select.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/select.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/sigset.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/time.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./sys/sysmacros.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/pthreadtypes.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./alloca.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./string.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./xlocale.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/string.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/string2.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./stdio.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./libio.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./_G_config.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./wchar.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/include/stdarg.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/stdio_lim.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/sys_errlist.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/stdio.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./assert.h:
+
+../../sqlite_src/sqlite3.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./ctype.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./signal.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/signum.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/siginfo.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/sigaction.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/sigcontext.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/include/asm/sigcontext.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/sigstack.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./sys/ucontext.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/sigthread.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./pwd.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./unistd.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/posix_opt.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/environments.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/confname.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./getopt.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./dirent.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/dirent.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/posix1_lim.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/local_lim.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/include/linux/limits.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./sys/stat.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/stat.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./readline/readline.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./readline/rlstdc.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./readline/rltypedefs.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./readline/keymaps.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./readline/chardefs.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./readline/tilde.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./readline/history.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./sys/time.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./sys/resource.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/resource.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./fcntl.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/fcntl.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./utime.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./errno.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/errno.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/include/linux/errno.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./asm/errno.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./asm-generic/errno.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./asm-generic/errno-base.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./zlib.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./zconf.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/include-fixed/limits.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/include-fixed/syslimits.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./limits.h:
+
+/disk230/cpb_devkit/linux-devkit/sysroots/i686-arago-linux/usr/bin/../arm-linux-gnueabihf/libc/usr/include/./bits/posix2_lim.h:
